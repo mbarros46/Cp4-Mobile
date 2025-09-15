@@ -5,6 +5,9 @@ export default {
     name: "Cp4-Mobile",
     slug: "cp4-mobile",
     version: "1.0.0",
+    android: {
+      package: "com.anonymous.cp4mobile"
+    },
     extra: {
       firebaseApiKey: process.env.FIREBASE_API_KEY,
       firebaseAuthDomain: process.env.FIREBASE_AUTH_DOMAIN,
